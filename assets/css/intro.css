@@ -1,0 +1,56 @@
+#intro{
+  height: 100px;
+  font-size: 70px;
+  margin:auto;
+  padding-top: 15%;
+  height:780px;
+  background-image: url(/assets/img/mariolvl1.png);
+  background-size: cover;
+  color: black;
+  padding-bottom: 15px;
+}
+hr{
+  width: 80%;
+}
+
+#réseaux{
+  position: relative;
+  top: -40px;
+}
+
+.fa-linkedin-square:active{
+  filter: drop-shadow(0px 0px 10px black);
+}
+
+.fa-github-square:active{
+ filter: drop-shadow(0px 0px 10px black);
+}
+
+@media screen and (max-width: 625px)
+{
+  #intro{
+    padding-top: 500px;
+    height: 760px;
+    font-size: 32px;
+    background-image: url(/assets/img/mariolvl1.png);
+    background-size: cover;
+    color: black;
+    padding-top: 15%;
+  }
+  hr{
+    width: 80%;
+  }
+
+  #réseaux{
+    position: relative;
+    top: -40px;
+  }
+
+  .fa-linkedin-square:active{
+    filter: drop-shadow(0px 0px 10px black);
+  }
+
+  .fa-github-square:active{
+   filter: drop-shadow(0px 0px 10px black);
+  }
+}

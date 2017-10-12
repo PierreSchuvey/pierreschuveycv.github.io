@@ -1,0 +1,36 @@
+#perso{
+  height: 760px;
+  font-size: 30px;
+  background-image: url(/assets/img/route29.png);
+  background-size: cover;
+  color: black;
+  padding-top: 15%;
+}
+#moi{
+  background-image: url(/assets/img/moi.jpg);
+  background-size: cover;
+  width:250px;
+  height:250px;
+  border-radius: 125px;
+  display: block;
+  align-items: center;
+}
+
+#info{
+   margin-top: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   background-color: rgba(107, 140, 255, 0.2);
+
+}
+@media screen and (max-width: 625px)
+{
+  #perso{
+    height: 760px;
+    font-size: 25px;
+    background-image: url(/assets/img/route29.png);
+    background-size: cover;
+    color: black;
+    padding-top: 15%;
+  }
+}

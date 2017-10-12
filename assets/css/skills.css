@@ -1,0 +1,25 @@
+#compétences{
+  padding-top: 7%;
+  height: 780px;
+  background-image: url(/assets/img/zelda.jpg);
+  background-size: cover;
+  font-size: 30px;
+}
+#Logiciels, #OS, #langages {
+ padding-left: 250px;
+ display: inline-table;
+}
+@media screen and (max-width: 625px)
+{
+  #compétences{
+    height: 1100px;
+    background-image: url(/assets/img/zelda.jpg);
+    background-size: cover;
+    font-size: 20px;
+  }
+  #Logiciels, #OS, #langages {
+    position: relative;
+    left: -200px;
+    line-height: none;
+  }
+}
